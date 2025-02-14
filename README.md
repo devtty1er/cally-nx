@@ -12,7 +12,8 @@ pip install cally-nx
 
 ```
 
-__NOTE__: Cally does NOT support indirect function calls!
+> [!NOTE]
+> Cally does NOT support indirect function calls!
 
 ## Changes
 
