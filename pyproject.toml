@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cally-nx"
+version = "0.1.0"
+description = "Generate call graphs from GCC RTL dump files"
+authors = [
+    { name = "Tyler Flynn", email = "devtty1er@gmail.com" },
+]
+license = "Apache-2.0"
+readme = "README.md"
+requires-python = ">=3.7"
+
+[project.scripts]
+cally-nx = "cally_nx.cli:main"
