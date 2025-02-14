@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "cally-nx"
 version = "0.1.0"
-description = "Generate call graphs from GCC RTL dump files"
+description = "Generate nx.DiGraphs from GCC RTL files"
 authors = [
     { name = "Tyler Flynn", email = "devtty1er@gmail.com" },
 ]
